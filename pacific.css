@@ -1,0 +1,182 @@
+
+/* File: pacific.css
+GUI Assignment: HW2- Edit pacific.css to result in the given view of the webpage
+Nicholas Aswani, Umass Lowell Computer Science, nicholas_aswani@student.uml.edu
+July 21, 2021 */
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/* setting the background gradient with background image; plus its height and width*/
+body {
+	position: center;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	width:200vh;
+	background-image: linear-gradient(rgb(208, 208, 236),rgb(140, 140, 230),rgb(82, 82, 228), #00569f);
+	
+}
+
+/* main area of the page settings */
+#wrapper {
+    display: block;
+	margin: auto;  /* to center wrapper */
+	position: center;
+	max-width: 80%;
+	text-align: left;
+	padding-top: 20px;
+    padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 80px;
+	min-width: 600px;
+	background-color: white;
+	background-image: linear-gradient(rgb(208, 208, 236),rgb(140, 140, 230),rgb(82, 82, 228), #00569f);
+	/*border: solid blue; */
+	/* margin-left: 150px; */
+}
+
+/* setting the background image of the header */
+#wrapper header {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+/* changing the headers text color */
+#wrapper header,h1 {
+	color:aliceblue;
+}
+
+/* removing underline from nav links and setting the font */
+#wrapper nav ul {
+	list-style-type: none;
+}
+
+/* removing underline from nav links and setting the font */
+#wrapper nav ul li a {
+	text-decoration: none;
+	font-weight: 550;
+}
+
+/* Aligning the contents of the page to the right of the navigation panel*/
+#wrapper #content {
+	width: 100%;
+	margin-left: 200px;
+
+	/*
+	z-index: 1;
+	position:-webkit-sticky;
+	*/
+}
+
+#content {
+	margin: 5px;
+	height: 500px;
+	display: table-cell;
+	text-align: left;
+	background-color: white;
+	position: 100%;
+}
+
+/* adding left margin to the paragraph */
+#content p {
+	text-align: left;
+	margin-left: 540px;
+}
+
+/* aligning the paragraph header, setting color and fonts*/
+/*source: w3.org/Style/Examples/007/center.en.html */
+#content .resort{
+	color: #344873;
+	font-size: medium;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 1px; 
+	display: block;
+
+   /*margin-left: 550px
+   	display:table-cell; */
+}
+
+/* aligning text to the right of image */
+/* source: jsfiddle.net : https://jsfiddle.net/tH2qc/ */
+#content img {
+	margin-left: 210px;
+	float: left;
+}
+
+/* custom bulleting of lists. source
+https://www.uvm.edu/~bnelson/computer/css/bullettypesforlists.html*/
+#content ul {
+	margin-left: 518px; 
+    text-align: left; 
+	list-style-image: url(marker.gif) ;
+}
+
+/* positioning and setting font size of the contact div */
+#contact {
+	font-size: 90%;
+	margin-left: 155px;
+    padding: 55px;
+	
+}
+
+/* adding a margin on the left of address title*/
+#contact .resort {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 0rem;
+	padding-left: 0.1em;
+	text-align: left;
+}
+
+/* nav bar position */
+/*creating the side navigation panel, setting size and background color*/
+nav{
+	display: block;
+	height: 535px;
+	background:#3399CC;
+	padding: 10px;
+    width: 180px;
+	position: fixed;
+	
+}
+nav ul {
+	font-size: 1.2em;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+	margin-left: 210px;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 200px;
+	font-style: italic;
+	background-color: white;
+	padding: 10px;
+}
+
